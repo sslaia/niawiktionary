@@ -1,0 +1,31 @@
+name: niaswiktionary
+description: A Nias Wiktionary app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^2.0.4
+  google_fonts: ^2.0.0
+#  provider: ^5.0.0
+#  shared_preferences: ^2.0.5
+  easy_localization: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/translations/en.json
+    - assets/translations/id.json
+
